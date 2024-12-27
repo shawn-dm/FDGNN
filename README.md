@@ -1,7 +1,7 @@
 # FDGNN
 This repository is an official PyTorch (Geometric) implementation of FDGNN in "Disentangled contrastive learning for fair graph representations".
 
-**If you use this software, please consider citing:**
+**If this code is helpful, please consider citing:**
 ```linux
 @article{zhang2025disentangled,
   title={Disentangled contrastive learning for fair graph representations},
@@ -59,3 +59,5 @@ bash run_german.sh
 [//]: # (bash run_recidivism.sh)
 
 [//]: # (```)
+
+If GPU memory is insufficient, consider replacing VGAE with GCN, the metrics will drop a bit but still have good results.

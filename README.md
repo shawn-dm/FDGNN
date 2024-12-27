@@ -35,8 +35,11 @@ pip install -r requirements.txt
 ```
 Please exclusively install the torch-geometric following [instructions](https://pytorch-geometric.readthedocs.io/en/latest/install/installation.html).
 
+Note that for different datasets, you will need to adjust "MAX_LOGSTD" in ‘VGAE.py’.
 
 ## Result
+
+Please reserve at least 40GB of memory on the GPU.
 
 Here we provide shortcut actions to run FDGNN:
 

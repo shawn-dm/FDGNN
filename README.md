@@ -39,8 +39,6 @@ Note that for different datasets, you will need to adjust "MAX_LOGSTD" in ‘VGA
 
 ## Result
 
-Please reserve at least 40GB of memory on the GPU.
-
 Here we provide shortcut actions to run FDGNN:
 
 ```linux
@@ -60,4 +58,3 @@ bash run_german.sh
 
 [//]: # (```)
 
-If GPU memory is insufficient, consider replacing VGAE with GCN, the metrics will drop a bit but still have good results.
